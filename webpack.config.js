@@ -154,6 +154,7 @@ var config = {
                     loader: 'babel-loader',
                     options: {
                         cacheDirectory: true,
+                        presets: ['@babel/react']
 
                         // Babel configuration is in .babelrc because jest requires it to be there.
                     },
